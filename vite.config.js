@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/entrega-final-react-miguel-casas/'
+  base: '/entrega-final-react-miguel-casas-v2/'
 })
