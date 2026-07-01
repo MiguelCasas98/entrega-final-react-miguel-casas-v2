@@ -16,6 +16,7 @@ function AppRouter() {
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/cart" element={<CartContainer />} />
         <Route path="/checkout" element={<CheckoutContainer />} />
+        <Route path="*" element={<HomeContainer />} />
       </Routes>
     </BrowserRouter>
   );
