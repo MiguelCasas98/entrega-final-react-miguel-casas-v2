@@ -7,7 +7,7 @@ import HomeContainer from "../components/HomeContainer";
 import CartContainer from "../cart/CartContainer";
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/entrega-final-react-miguel-casas-v2">
       <NavBarContainer />
 
       <Routes>
