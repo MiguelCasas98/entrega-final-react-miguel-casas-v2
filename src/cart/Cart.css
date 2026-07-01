@@ -81,4 +81,7 @@
   font-size: 18px;
   font-weight: 600;
   margin-top: 15px;
+  transform: none !important;
+  direction: ltr !important;
+  unicode-bidi: normal !important;
 }
