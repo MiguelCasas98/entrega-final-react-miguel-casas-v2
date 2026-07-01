@@ -12,6 +12,7 @@ function AppRouter() {
 
       <Routes>
         <Route path="/" element={<HomeContainer />} />
+        <Route path="/entrega-final-react-miguel-casas-v2" element={<HomeContainer />} />
         <Route path="/category/:categoryId" element={<ItemListContainer />} />
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/cart" element={<CartContainer />} />
